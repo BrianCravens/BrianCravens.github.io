@@ -244,7 +244,9 @@ nav ul li a {
   height: 100vh;
   width: 100%;
 }
-
+.typed{
+  width: 100%;
+}
 
 #header .header-content {
   height: 100vh;
