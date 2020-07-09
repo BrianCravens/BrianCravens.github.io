@@ -251,8 +251,6 @@ nav ul li a {
   text-align: left;
   width: 100%;
   display: flex;
-  padding-top: 10em;
-  padding-right: 40em;
   justify-content: center;
   flex-direction: column
 }
