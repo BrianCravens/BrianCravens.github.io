@@ -251,8 +251,10 @@ nav ul li a {
   text-align: left;
   width: 100%;
   display: flex;
+  padding-top: 10em;
+  padding-right: 40em;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column
 }
 
 .header-content h1 {
@@ -260,7 +262,8 @@ nav ul li a {
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: rgb(3, 3, 3);
+  color: rgb(14, 13, 13);
+  
 }
 
 .header-content p {
