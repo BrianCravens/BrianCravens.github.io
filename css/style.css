@@ -26,6 +26,11 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+.resumecontainer{
+  display: flex;
+  flex:100%;
+  flex-direction: row;
+}
 .buttonscrolly{
   justify-self: center;
 
