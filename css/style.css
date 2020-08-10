@@ -26,7 +26,10 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+.buttonscrolly{
+  justify-self: center;
 
+}
 .resumebtn{
   display: flex;
   flex: 100%;
