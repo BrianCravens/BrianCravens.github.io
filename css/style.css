@@ -28,6 +28,8 @@ body {
 }
 
 .resumebtn{
+  padding-top: 10px;
+  align-items: center;
   justify-content: center;
 }
 .button {
