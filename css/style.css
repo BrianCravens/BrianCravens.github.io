@@ -37,10 +37,9 @@ body {
 }
 .resumebtn{
   display: flex;
-  flex: 100%;
-  padding-top: 10px;
   align-items: center;
-  justify-content: center;
+  padding-top: 10px;
+  
 }
 .button {
   border-top: 1px solid #323638;
