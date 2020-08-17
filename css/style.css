@@ -31,10 +31,7 @@ body {
   flex:100%;
   flex-direction: row;
 }
-.button scrolly{
-  justify-self: center;
 
-}
 .resume{
   display: flex;
   align-items: center;
@@ -66,7 +63,7 @@ body {
   }
 .button:hover {
   border-top-color: #3f3f40;
-  background: #3f3f40;
+  background: #232324;
   color: #f7f7f7;
   }
 .button:active {
@@ -215,9 +212,7 @@ p {
   background: #b8a07e;
 }
 
-.mb-30 {
-  margin-bottom: 30px;
-}
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Navbar Top
@@ -568,37 +563,61 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #contact {
-  height: auto;
-  width: 100%;
+  /* height: auto;
+  width: 100%; */
 }
 .row{
   justify-content: center;
   text-align: center;
 }
 .contact-contact {
-  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-items: center;
   text-align: center;
-  flex: 100
+  /* flex: 100 */
   /* padding-left: 30em; */
 
   
 }
 .container{
-  align-items: center;
+  /* align-items: center;
+  align-content: center; */
 }
 
+.mb-30 {
+  flex-basis: 100%;
+  margin-bottom: 30px;
+}
+
+.button scrolly{
+  flex-basis: 100%;
+  
+
+}
 
 .contact-details {
+  flex-basis: 100%;
   list-style: none;
-  margin: 10px;
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-left: 0px;
+  margin: none;
 }
-
-.contact-details li {
+.contact-details ul{
+  text-align: center;
+  justify-items: center;
+  align-content: center;
+}
+.contact-details li{
+  align-content: center;
   padding-bottom: 10px;
 }
+.contact-items{
+  justify-content: center;
+}
 
-#contact input, #contact textarea {
+/* #contact input, #contact textarea {
   width: 100%;
 }
 
@@ -633,7 +652,7 @@ nav ul li a {
   margin: 0 0 20px;
   font-weight: 400;
   font-size: 13px;
-}
+} */
 
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
@@ -696,7 +715,7 @@ nav ul li a {
   font-size: 13px;
 }
 .col-lg-6{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
 }
