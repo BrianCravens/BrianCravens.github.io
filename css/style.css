@@ -296,11 +296,12 @@ nav ul li a {
   width: 100%;
   display: flex;
   justify-content: center;
-  flex-direction: column
+  flex-direction: column;
+  padding-bottom:300px;
 }
 
 .header-content h1 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -309,7 +310,7 @@ nav ul li a {
 }
 
 .header-content p {
-  font-size: 13px;
+  font-size: 20px;
   letter-spacing: 5px;
   margin-top: 0;
   margin-bottom: 30px;
@@ -320,12 +321,12 @@ nav ul li a {
 
 .header-content .list-social li {
   float: left;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .header-content .list-social li i {
   color: rgb(7, 7, 7);
-  font-size: 15px;
+  font-size: 40px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -590,7 +591,9 @@ nav ul li a {
   flex-basis: 100%;
   margin-bottom: 30px;
 }
-
+.github-icon{
+  font-size: 40px;
+}
 .button scrolly{
   flex-basis: 100%;
   
@@ -681,7 +684,7 @@ nav ul li a {
 }
 
 #footer .socials-media ul li a {
-  font-size: 24px;
+  font-size: 40px;
   color: #999;
   letter-spacing: 0.1em;
   font-weight: 500;
